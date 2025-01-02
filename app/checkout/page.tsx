@@ -26,6 +26,8 @@ const CheckoutPage = () => {
       toast({
         title: "Order Placed Successfully!",
         description: "Thank you for your purchase.",
+        className:"bg-gradient-to-r from-[#D7BBAA] via-[#A47C65] to-[#6C4F3D] text-white"
+
       });
       
       clearCart();
@@ -35,6 +37,8 @@ const CheckoutPage = () => {
         title: "Error",
         description: "Something went wrong. Please try again.",
         variant: "destructive",
+        className:"bg-gradient-to-r from-[#D7BBAA] via-[#A47C65] to-[#6C4F3D] text-white"
+
       });
     } finally {
       setLoading(false);

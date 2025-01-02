@@ -28,6 +28,7 @@ const ProductClientComponent: React.FC<ProductClientProps> = ({ product, related
     toast({
       title: "Added to Cart",
       description: `${product.name} has been added to your cart.`,
+      className: " bg-gradient-to-r from-[#D7BBAA] via-[#A47C65] to-[#6C4F3D] text-white" 
     });
   };
 
