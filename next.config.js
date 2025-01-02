@@ -11,4 +11,7 @@ const nextConfig = {
 module.exports = {
   // remove this
   // output: 'export',
+  images: {
+    domains: ['images.unsplash.com'], // Allow Unsplash domain
+  },
 };
